@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "outDir": "./dist",
+        "rootDir": "./src",
+		"target": "es2018",
+		"module": "commonjs",
+		"lib": ["ESNext"],
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "paths": {
+            "@infra/*": ["./infrastructure/*"],
+            "@app/*": ["./application/*"],
+            "@domains/*": ["./domains/*"],
+        },
+    },
+}
